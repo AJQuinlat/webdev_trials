@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*outline: 1px dotted red;*/
+}
+
+div.container {
+    width: 970px;
+    min-height: 600px;
+    margin: 0px auto;
+    font-family: arial;
+}
+
+    div.container div.nav {
+        width: 160px;
+        min-height: 600px;
+        padding: 5px 10px 0px 15px;
+        outline: 1px solid rgb(140, 118, 89);
+        background-color: antiquewhite;
+        display: inline-block;
+    }
+
+        div.container div.nav h4{
+            font-size: 12px;
+            margin-top: 10px;
+            color:  rgb(163, 163, 163); 
+        }
+
+        div.container div.nav ul{
+            font-size: 11px;
+            margin-top: 5px;
+            list-style: none;
+        }
+
+            div.container div.nav ul li{
+                margin-top: 5px;
+            }
+
+                div.container div.nav ul li a{
+                    color:rgb(50, 50, 50);
+                    text-decoration: none;
+                }
+    
+    div.container div.content {
+        width: 700px;
+        min-height: 600px;
+        padding: 5px 20px 0px 40px;
+        vertical-align: top;
+        display: inline-block;
+    }
+
+        div.container div.content a {
+            color:dodgerblue;
+            text-decoration: none;
+        }
+
+        div.container div.content .italic {
+            font-style: italic;
+        }
+
+        div.container div.content p{
+            font-size: 14px;
+            margin: 10px 40px 10px 0px;
+        }
+
+        div.container div.content h1{
+            font-size: 24px;
+        }
+
+        div.container div.content h2{
+            font-size: 20px;
+            padding: 5px 0px;
+        }
+
+        div.container div.content h3{
+            font-size: 16px;
+            padding: 5px 0px;
+        }
+
+        div.container div.content div.box{
+            outline: 1px solid rgb(140, 118, 89);
+            padding: 5px 10px;
+        }
+
+        div.container div.content ol{
+            font-size: 14px;
+            margin: 10px 0px 10px 15px;
+        }
+        
