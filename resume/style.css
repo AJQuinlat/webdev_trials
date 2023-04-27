@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*outline: 1px dotted red;*/
+}
+
+main {
+    width: 800px;
+    height: 1050px;
+    margin: 0px auto;
+    padding: 20px;
+    background-image: linear-gradient(azure, white,azure);
+    font-family: sans-serif;
+}
+
+    main h3{
+        font-size: 25px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    main header{
+        padding-top: 10px;
+    }
+
+        main header img{
+            width: 250px;
+            height: 250px;
+            object-position: 70%;
+            object-fit: cover;
+            display: inline-block;
+        }
+
+        main header .line{
+            display: inline-block;
+            width: 510px;
+            border-top: 3px solid midnightblue;
+            margin: 30px 0px;
+        }
+
+        main header .text{
+            margin-top: 30px;
+            margin-left: 30px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            main header .text h1{
+                color:midnightblue;
+                font-weight: bolder;
+                font-size: 50px;
+            }
+
+            main header .text h2{
+                font-size: 20px;
+                color:rgb(5, 5, 5);
+                margin: 10px 0px;
+            }
+
+            main header .text h4{
+                color:rgb(5, 5, 5);
+            }
+    
+    main .summary {
+        margin-top: 20px;
+        padding: 15px 30px 15px 30px;
+        background-color:rgb(240, 240, 240);
+    }
+
+        main .summary p{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+
+    main .background {
+        margin-top: 20px;
+    }
+
+    main .background .languages{
+        padding: 5px 15px;
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        main .background .languages img{
+            width: 17%;
+            margin: 3px;
+        }
+
+    main .background .projects{
+        padding: 15px;
+        width: 375px;
+        display: inline-block;
+        background-image: linear-gradient(lightgray, white, lightgray);
+    }
+
+
+        main .background .projects h4{
+            font-size: 20px;
+            margin-top: 25px;
+            padding-left: 20px;
+        }
+
+        main .background .projects p{
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        main .background .projects li{
+            margin-top: 5px;
+            margin-left: 40px;
+        }
+
+    main footer{
+        padding: 25px 0px 0px 0px;
+        text-align: center;
+    }
+
+        main footer img{
+            width: 25px;
+            display: inline-block;
+        }
+
+        main footer a{
+            color:rgb(5, 5, 5);
+            padding: 0px 10px 0px 3px;
+        }
+
+
+
+
+
+
+
+
+
+        
+
+        
