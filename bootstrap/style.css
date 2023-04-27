@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    background-color: lightgray;
+}
+
+.d-flex button {
+    margin-right: 10px;
+}
+
+img {
+    margin-top: 30px;
+    width: 80%;
+}
