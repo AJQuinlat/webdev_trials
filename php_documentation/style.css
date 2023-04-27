@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /*outline: 1px dotted red;*/
+}
+
+main {
+    width: 970px;
+    min-height: 500px;
+    margin: 0px auto;
+    font-family: calibri;
+    background-color: rgb(51, 51, 51);
+}
+
+    main header {
+        background-color: #8892BF;
+        border-bottom: 2px solid #4F5B93;
+    }
+
+        header .logo {
+            padding: 3px 15px 3px 50px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+            header .logo img {
+                width: 30px;
+                vertical-align: middle;
+            }
+
+        header .navchoice {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+            header .navchoice a{
+                display: inline-block;
+                vertical-align: middle;
+                text-decoration: none;
+                padding: 8px 6px;
+                display: inline-block;
+                vertical-align: middle;
+                color: white;
+                font-size: 11px;
+            }
+
+            header .navchoice .selected{
+                display: inline-block;
+                outline: 2px solid #4F5B93;
+                background-color: #4F5B93;
+            }
+
+            header .navchoice img{
+                width: 40px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+        header .search {
+            padding: 5px 0px 5px 270px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+            header .search p{
+                padding: 2px 210px 2px 5px;
+                font-size: 10px;
+                color: lightgray;
+                background-color: white;
+                vertical-align: middle;
+            }
+
+    main .navbar {
+        padding: 5px 0px 5px 50px;
+    }
+
+        main .navbar a{
+            margin: 0px 5px 5px 0px;
+            font-size: 10px;
+            display: inline-block;
+            color: rgb(190, 190, 190);
+            text-decoration: none;
+        }
+
+        main .navbar h6{
+            margin-right: 5px;
+            font-size: 8px;
+            display: inline-block;
+            color: rgb(190, 190, 190);
+        }
+
+        main .navbar .info{
+            margin: 0px 0px 0px 535px;
+            display: inline-block;
+        }
+
+            main .navbar .info p{
+                margin-right: 25px;
+            }
+    
+    main .content {
+        width: 640px;
+        height: 375px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        color: rgb(51, 51, 51);
+        border-right: 3px solid gray;
+        background-color: rgb(235, 235, 235);
+        display: inline-block;
+    }
+
+        main .content .support {
+            padding: 10px 10px 0px 10px;
+        }
+
+            main .content .support p{
+                display: inline-block;
+                padding: 0px;
+                margin-left: 70%;
+                font-size: 11px;
+            }
+
+            main .content .support select{
+                display: inline-block;
+                font-size: 8px;
+                padding-right: 40px;
+            }
+
+            main .content .support .links{
+                padding-left: 77%;
+            }
+
+                main .content .support .links a{
+                    display: inline-block;
+                    font-size: 8px;
+                    padding: 0px 0px 0px 10px;
+                    text-decoration: none;
+                }
+
+        main .content .title {
+            padding: 0px 15px;
+        }
+
+            main .content .title h3 {
+                padding-bottom: 3px;
+                border-bottom: 1px solid rgb(51, 51, 51);
+            }
+
+            main .content .title h4 {
+                padding: 15px 0px 3px 0px;
+                border-bottom: 1px solid rgb(51, 51, 51);
+            }
+
+        main .content ul {
+            padding: 15px 15px;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+
+            main .content ul li{
+                padding: 1px 0px;
+            }
+
+        main .content p {
+            padding: 0px 15px 20px 15px;
+            font-size: 11px;
+        }
+
+        main .content a {
+            color:rgb(31, 102, 173);
+        }
+
+    main .content .colored {
+        color: rgb(136, 26, 63);
+    }
+
+        main .content .colored h4{
+            padding-top: 0px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgb(136, 26, 63);
+        }
+
+    main .content .note {
+        height: 0;
+    }
+
+        main .content .note a {
+            display: inline-block;
+            vertical-align: top;
+            padding-left:90%;
+            font-size: 8px;
+        }
+
+            main .content a img {
+                vertical-align: top;
+                padding: 1px;
+                width: 8px;
+            }
+    
+    main nav {
+        display: inline-block;
+        color:rgb(190, 190, 190);
+        vertical-align: top;
+        padding: 5px 15px 5px 15px;
+    } 
+
+        main nav .selected{
+            font-weight: bold;
+            font-size: 10px;
+            padding: 2px 170px 2px 10px;
+            border-bottom: 1px solid rgb(160, 35, 149);
+            color: rgb(160, 35, 149);
+        } 
+
+        main nav a{
+            color: rgb(190, 190, 190);
+            font-weight: normal;
+            font-size: 10px;
+            padding: 2px 170px 2px 10px;
+            border-bottom: 1px solid white;
+            text-decoration: none;
+            display: block;
+        } 
+
+        main nav h4{
+            font-weight: normal;
+            font-size: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid white;
+        } 
+
+    main footer {
+        padding-left: 10%;
+    }
+
+        main footer p{
+            font-size: 10px;
+            padding-right: 10px;
+            color:lightgray;
+            display: inline-block;
+        }
+
+        main footer a{
+            font-size: 10px;
+            padding-right: 10px;
+            color:lightgray;
+            text-decoration: none;
+        }
