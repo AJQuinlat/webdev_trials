@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 55%;
+    padding: 0px 20px 0px 20px;
+    margin: 20px auto 0px auto;
+}
+
+.header img {
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.title {
+    font-family: Arial;
+    margin-right: 17%;
+    margin-left: 17%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content {
+    width: 55%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.date p{
+    height: 10px;
+    width: 50px;
+    padding: 10px 15px 15px 15px;
+    border: 1.5px solid;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+
+.date .bold p{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.sunday{
+    width: 95px;
+    display: inline-block;
+}
+
+.sunday p {
+    background-color:cornflowerblue;
+}
+
+.weekday{
+    width: 485px;
+    display: inline-block;
+}
+
+.weekday p {
+    background-color:white;
+}
+
+.saturday{
+    width: 95px;
+    display: inline-block;
+}
+
+.saturday p {
+    background-color:rgb(160, 218, 174)
+}
+ 
+.date .empty{
+    display: inline-block;
+}
+    
+.date .empty p{
+    display: inline-block;
+    color: lightgray;
+    background-color: lightgray;
+}
